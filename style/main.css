@@ -1,5 +1,6 @@
 @import url("https://marksheet.io/css/reset.css");
-h1{
-    font-size: 20px;
-    color: deepskyblue;
+
+.container {
+    width: 100%;
+    margin: 0 auto;
 }
