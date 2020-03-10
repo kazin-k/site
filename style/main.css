@@ -1,23 +1,97 @@
+/* Импорт стилей, шрифтов и иконок */
+/* Сброс CSS */
 @import url("https://marksheet.io/css/reset.css");
 
+
+/* Базовые стили */
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 .container {
+    display: flex;
     width: 100%;
-    max-width: 1024px;
+    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
     padding: 0 15px;
     margin: 0 auto;
 }
-nav ul{
+
+
+/* Предустановки */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    display:flex;
 }
-footer>nav{
-    display:flex;
+
+
+/* Гибкая верстка */
+
+
+
+
+
+
+
+/* Шапка сайта */
+header {
+    flex: 0 0 auto;
 }
-.row{
-    flex-direction: :row;
+
+
+/* Основное содержимое */
+main {
+    display: flex;
+    flex: 1 0 auto;
 }
-.column{
-    flex-direction: :column;
+main > div.container {
+    flex: 1 0 auto;
+}
+section {
+    flex: 3 0 auto;
+}
+aside {
+    flex: 1 0 auto;
+}
+
+
+/* Подвал сайта */
+footer {
+    flex: 0 0 auto;
+}
+body {
+    outline: 2px solid red;
+    margin: 10px;
+}
+header {
+    outline: 2px solid green;
+    margin: 10px;
+}
+main {
+    outline: 2px solid blue;
+    margin: 10px;
+}
+section {
+    outline: 2px solid orange;
+    margin: 10px;
+}
+aside {
+    outline: 2px solid grey;
+    margin: 10px;
+}
+footer {
+    outline: 2px solid black;
+    margin: 10px;
 }
