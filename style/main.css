@@ -72,26 +72,26 @@ footer {
     flex: 0 0 auto;
 }
 body {
-    outline: 4px solid red;
+    outline: 2px solid red;
     margin: 10px;
 }
 header {
-    outline: 4px solid green;
+    outline: 2px solid green;
     margin: 10px;
 }
 main {
-    outline: 4px solid blue;
+    outline: 2px solid blue;
     margin: 10px;
 }
 section {
-    outline: 4px solid orange;
+    outline: 2px solid orange;
     margin: 10px;
 }
 aside {
-    outline: 4px solid grey;
+    outline: 2px solid grey;
     margin: 10px;
 }
 footer {
-    outline: 4px solid black;
+    outline: 2px solid black;
     margin: 10px;
 }
