@@ -2,6 +2,11 @@ body {
     outline: 2px solid red;
     margin: 10px;
 }
+div[class*='col-']{
+    outline: 2px solid pink;
+    margin: 10px;
+}
+
 header {
     outline: 2px solid green;
     margin: 10px;
