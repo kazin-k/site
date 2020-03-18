@@ -87,6 +87,10 @@ main {
 main > div.container {
     flex: 1 0 auto;
 }
+aside {
+    flex: 1 0 auto;
+    padding:0 15px
+}
 section {
     flex: 3 0 auto;
     padding:0 15px
