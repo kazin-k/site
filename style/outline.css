@@ -31,3 +31,11 @@ footer {
     outline: 2px solid black;
     margin: 10px;
 }
+hader a,
+footer a {color:#fff;
+    text-decoration:none;
+}
+hader a:hover,
+footer a:hover {
+    text-decoration:underline;
+}
