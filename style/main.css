@@ -105,9 +105,24 @@ aside {
 footer {
     flex: 0 0 auto;
 }
-main{
-    background-image:
-    url(/sity/images/f8103819da656ccff.jpg);
-    f8103819da656ccff-position: center center;
-    f8103819da656ccff-site:cover;
+hader a,
+footer a {color:#fff;
+    text-decoration:none;
+}
+hader a:hover,
+footer a:hover {
+    text-decoration:underline;
+}
+.button {
+height: 50px;
+    /*width: 100px;*/
+    background-color: #999;
+    border-radius: 5px;
+
+}
+main {
+ background-image: url(/site/images/background.jpg);
+    background-position: center center;
+    background-size: cover;
+
 }
