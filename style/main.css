@@ -79,9 +79,7 @@ header {
 
 
 /* Основное содержимое */
-main {
-    display: flex;
-    flex: 1 0 auto;
+
 }
 main > div.container {
     flex: 1 0 auto;
@@ -102,6 +100,8 @@ main {
  background-image: url(/site/images/lop.jpg);
     background-position: center center;
     background-size: cover;
+    display: flex;
+    flex: 1 0 auto;
 }
 
 
