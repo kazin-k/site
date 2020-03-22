@@ -15,10 +15,6 @@ main {
     outline: 2px solid blue;
     margin: 10px;
 }
-aside {
-    outline: 2px solid grey;
-    margin: 10px;
-}
 section {
     outline: 2px solid orange;
     margin: 10px;

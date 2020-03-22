@@ -81,7 +81,7 @@ header {
 /* Основное содержимое */
 
 main {
- background-image: url(/site/images/lop.jpg);
+    background-image: url(/site/images/lop.jpg);
     background-position: center center;
     background-size: cover;
     display: flex;
