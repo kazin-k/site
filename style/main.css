@@ -175,8 +175,9 @@ main {
     background-position: center, center;
     background-size: cover;
 }
-main > div.container {
+main > div .container {
     flex: 1 0 auto;
+    background-color: #fff;
 }
 aside {
     flex: 1 0 auto;
