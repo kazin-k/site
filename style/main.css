@@ -144,6 +144,10 @@ border-bottom: 1px solid #e5e5e5;
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
+    display:flex;
+    background-color: #000;
+    height: 100px;
+    color: #fff;
 }
 header .logo {
  width: 100px;
