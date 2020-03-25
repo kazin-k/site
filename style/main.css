@@ -179,6 +179,7 @@ main > div .container {
     flex: 1 0 auto;
     background-color: #fff;
 }
+
 aside {
     flex: 1 0 auto;
     padding:0 15px
@@ -214,6 +215,8 @@ footer {
 	height: 200px;
     color: #fff;
 }
+footer.logo{
+    width 100px
 }
 footer > duv.container{
     height: 100%;
