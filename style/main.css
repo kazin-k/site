@@ -170,7 +170,7 @@ header ul li{
 main {
     display:flex;
     flex: 1 0 auto;
-    background-image: url("/marak-site/images/background.jpg");
+    background-image: url("/site/images/background.jpg");
     background-color: #e5e5e5;
     background-position: center, center;
     background-size: cover;
