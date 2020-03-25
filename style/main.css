@@ -8,15 +8,51 @@ html {
     height: 100%;
 }
 body {
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+h1 {
+font-size: 2.4em;
+
+padding: .8em 0 1.2em 0;
+
+}
+h2 {
+font-size: 2.2em;
+
+padding: .8em 0 1.0em 0;
+
+}
+h3 {
+font-size: 2.0em;
+
+padding: .8em 0 .8em 0;
+
+}
+h4 {
+font-size: 1.8em;
+
+padding: .8em 0 .6em 0;
+
+}
+h5 {
+font-size: 1.6em;
+
+padding: .8em 0 .4em 0;
+
+}
+h6 {
+font-size: 1.4em;
+
+padding: .8em 0 .2em 0;
+
 }
 .container {
     display: flex;
     width: 100%;
     max-width: 1024px; /*максимальная ширина может иметь другое значение*/
-    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -69,12 +105,37 @@ img{
         flex-direction: column;
     }
 }
+.b-right {
+border-right: 1px solid #e5e5e5;
+
+}
+
+.b-left {
+border-left: 1px solid #e5e5e5;
+
+}
+
+.b-top {
+border-top: 1px solid #e5e5e5;
+
+}
+
+.b-bottom {
+border-bottom: 1px solid #e5e5e5;
+
+}
+
+
 
 
 
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
+}
+header .logo {
+ width: 100px;
+
 }
 
 
@@ -102,8 +163,19 @@ aside {
     flex: 1 0 auto;
     padding:0 15px
 }
+aside a {
+    color: #000;
+    text-decoration: none;
+}
+aside a:hover {
+ text-decoration: undeline;
 
+}
 
+aside li {
+ line-height: 1.5em;
+
+}
 
 
 /* Подвал сайта */
@@ -112,12 +184,18 @@ footer {
 }
 
 .button {
-    height: 50px;
-    /*width: 100px;*/
+    padding: 20px 30px;
+    margin: 10px 20px;
+    text-decoration: none !important;
     background-color: #999;
     border-radius: 5px;
 
 }
+.button:hover {
+background-color: #888;
+
+}
+
 
 
 hader a,
@@ -127,4 +205,8 @@ footer a {color:#fff;
 header a:hover,
 footer a:hover {
     text-decoration:underline;
+}
+footer li {
+line-height: 2em;
+
 }
