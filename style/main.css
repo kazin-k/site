@@ -168,13 +168,12 @@ header ul li{
 /* Основное содержимое */
 
 main {
-
-    background-image: url(/site/images/lop.jpg);
-    background-position: center center;
-     background-color: #e5e5e5;
-    background-size: cover;
-    display: flex;
+    display:flex;
     flex: 1 0 auto;
+    background-image: url("/marak-site/images/background.jpg");
+    background-color: #e5e5e5;
+    background-position: center, center;
+    background-size: cover;
 }
 main > div.container {
     flex: 1 0 auto;
