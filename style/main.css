@@ -55,6 +55,18 @@ padding: .8em 0 .2em 0;
     max-width: 1024px; /*максимальная ширина может иметь другое значение*/
     margin: 0 auto;
 }
+.button {
+    padding: 20px 30px;
+    margin: 10px 20px;
+    text-decoration: none !important;
+    background-color: #999;
+    border-radius: 5px;
+
+}
+.button:hover {
+background-color: #888;
+
+}
 
 /* Предустановки */
 .row {
@@ -137,11 +149,19 @@ header .logo {
  width: 100px;
 
 }
+header > duv.container{
+    height: 100%;
+	align-items: center;
+}
+header ul li{
+    margin: 20px;
+}
 
 
 /* Основное содержимое */
 
 main {
+
     background-image: url(/site/images/lop.jpg);
     background-position: center center;
     background-size: cover;
@@ -181,23 +201,19 @@ aside li {
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
+    display:flex;
+	background-color: #000;
+	height: 200px;
+    color: #fff;
 }
-
-.button {
-    padding: 20px 30px;
-    margin: 10px 20px;
-    text-decoration: none !important;
-    background-color: #999;
-    border-radius: 5px;
-
 }
-.button:hover {
-background-color: #888;
-
+footer > duv.container{
+    height: 100%;
+    padding: 10px 0;
 }
-
-
-
+footer nav ul{
+    margin-right: 30px;
+}
 hader a,
 footer a {color:#fff;
     text-decoration:none;
