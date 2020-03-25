@@ -151,6 +151,10 @@ header {
     color: #fff;
 
 }
+hader a,
+footer a {color:#fff;
+    text-decoration:none;
+}
 header.logo{
     width 100px
 
