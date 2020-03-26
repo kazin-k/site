@@ -182,11 +182,7 @@ main {
 main > div.container {
       flex: 1 0 auto;
       background-color: #fff;
-}
 
-aside {
-    flex: 1 0 auto;
-    padding:0 15px
 }
 section {
     flex: 3 0 auto;
@@ -218,7 +214,7 @@ footer {
 	height: 200px;
     color: #fff;
 }
-footer > duv.container{
+footer > div.container{
     height: 100%;
     padding: 10px 0;
 }
