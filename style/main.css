@@ -160,7 +160,7 @@ header.logo{
 
 
 }
-header > duv.container{
+header > div.container{
     height: 100%;
 	align-items: center;
 }
@@ -179,14 +179,10 @@ main {
     background-position: center, center;
     background-size: cover;
 }
-main > div .container {
-    flex: 1 0 auto;
-    background-color: #fff;
-}
+main > div.container {
+      flex: 1 0 auto;
+      background-color: #fff;
 
-aside {
-    flex: 1 0 auto;
-    padding:0 15px
 }
 section {
     flex: 3 0 auto;
@@ -218,7 +214,7 @@ footer {
 	height: 200px;
     color: #fff;
 }
-footer > duv.container{
+footer > div.container{
     height: 100%;
     padding: 10px 0;
 }
@@ -228,11 +224,13 @@ footer nav ul{
 footer li {
 line-height: 2em;
 }
-hader a,
-footer a {color:#fff;
-    text-decoration:none;
-}
+
+
 header a:hover,
 footer a:hover {
     text-decoration:underline;
 }
+hader a,
+footer a {color:#fff;
+    text-decoration:none;
+    Ъ
