@@ -180,7 +180,7 @@ main {
     background-size: cover;
 }
 main > div .container {
-    flex: 1 0 auto;
+    
     background-color: #fff;
 }
 
