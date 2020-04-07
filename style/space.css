@@ -9,7 +9,11 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family:Verdana,sans-serif;
+    font-size:12px
 }
+
+
 .container {
     display: flex;
     width: 100%;
@@ -29,11 +33,15 @@ nav ul {
     padding: 0;
     list-style: none;
 }
-
-img{
-    width:100%;
-    max-width: 100%;
+strong{
+    font-weight: bold
 }
+.block{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
 
 .col-1{
     flex:1;
@@ -59,10 +67,7 @@ img{
 .col-6{
     flex:6;
 }
-@media(max-width:800px){
-    .conteiner{
-        flex-direction: column;
-    }
+
 }
 
 /* Шапка сайта */
@@ -75,15 +80,15 @@ header {
 /* Основное содержимое */
 
 
-section {
-    flex: 3 0 auto;
-    padding:0 15px
+.moon{
+    flex:1 0 auto
 }
-
-section>div.conteiner{
-    flex:0 0 auto;
+.adventages{
+     flex:1 0 auto
 }
-
+.content{
+     flex:1 0 auto
+}
 
 /* Подвал сайта */
 footer {
