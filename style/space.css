@@ -126,13 +126,11 @@ strong{
         flex-direction: column;
     	align-items: center;
 	}
-	.moon-and-rocket {
+	.moon-rocket {
 		order: -1;
 		width: 300px;
-	}
-	.block {
-		padding-bottom: 10px;
 }
+	
 
 
 
