@@ -112,25 +112,44 @@ strong{
     background-color: #676767;
 }
 
-
+/*Гибкий дизайн*/
+@media(max-width: 1200px) {
+	.container{
+        padding: 0 15px;
+    }
+}
+@media(max-width: 800px) {
+    header > div.container,
+	section .container,
+	.content .block,
+	footer .container {
+        flex-direction: column;
+    	align-items: center;
+	}
+	.moon-and-rocket {
+		order: -1;
+		width: 300px;
+	}
+	.block {
+		padding-bottom: 10px;
+}
 
 
 
 /* Шапка сайта */
 header {
-    height: 100px;
     background-color: #333;
     font-size: 0.9em;
 }
 
 header > div.container{
     height: 100%;
-	align-items: flex-end;
+	padding-top: 50px;
 }
 
 header ul {
    display: flex;
-   padding-bottom: 20px;
+   padding-top: 50px;
 }
 
 header li{
@@ -145,7 +164,7 @@ header li a {
 
 .header-icon{
     display: flex;
-    padding-bottom: 20px;
+    padding-top: 50px;
     align-items: center;
 }
 
