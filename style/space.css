@@ -112,7 +112,25 @@ strong{
     background-color: #676767;
 }
 
+/*Гибкий дизайн*/
 
+@media (max-width: 1024px) {
+	.container{
+        padding: 0 15px;
+    }
+}
+@media (max-width: 800px) {
+    header > div.container,
+	section .container,
+	.content .block,
+	footer .container {
+        flex-direction: column;
+    	align-items: center;
+	}
+	.moon-rocket {
+		order: -1;
+		width: 300px;
+}
 	
 
 
