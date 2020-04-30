@@ -566,7 +566,7 @@ pets__tab--active{
   width: 15px;
   height: 15px;
   background-color: #a07b50;
-  border-radius: 4px ;
+  border-radius: 8px ;
 }
 
 .breed-features__item--cohabitation {
