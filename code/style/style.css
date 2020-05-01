@@ -91,6 +91,9 @@ img {
   padding: 0 40px;
   
 }
+.col-1 {
+    display: flex;
+}
 .section__wrapper {
   display: flex;
   flex-direction: column;
