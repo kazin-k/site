@@ -410,7 +410,7 @@ img {
   padding: 18px;
   transition: color 0.3s ease-out, border 0.3s ease-out;
 }
-.pets__tab--active{
+.pets__tab--active {
     color: #fff;
 }
 
