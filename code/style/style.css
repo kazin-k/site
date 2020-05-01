@@ -83,7 +83,14 @@ img {
   margin: 0 auto;
   padding: 0 40px;
 }
-
+.container1 {
+    display: flex;
+  position: relative;
+  max-width: 1286px;
+  margin: 0 auto;
+  padding: 0 40px;
+  
+}
 .section__wrapper {
   display: flex;
   flex-direction: column;
