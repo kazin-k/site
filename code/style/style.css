@@ -502,17 +502,10 @@ img {
   break-inside: avoid;
   page-break-inside: avoid;
   overflow: hidden;
-  width: 99%;
+  width: 100%;
 }
 
-.gallery__item:hover {
-   flex-shrink: 1;
-  line-height: 0;
-  break-inside: avoid;
-  page-break-inside: avoid;
-  overflow: hidden;
-  width: 100%; 
-}
+
 .gallery__item--top {
   margin-bottom: 30px;
   height: 214px;
@@ -533,7 +526,14 @@ img {
 }
 
 .gallery__item-img {
-  width: 100%;
+  width: 98%;
+  height: 98%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gallery__item-img:hover {
+width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
