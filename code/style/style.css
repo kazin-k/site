@@ -507,11 +507,11 @@ img {
 
 .gallery__item:hover {
    flex-shrink: 1;
-  line-height: 0;
+  line-height: 1;
   break-inside: avoid;
   page-break-inside: avoid;
   overflow: hidden;
-  width: 200%; 
+  width: 100%; 
 }
 .gallery__item--top {
   margin-bottom: 30px;
