@@ -502,12 +502,12 @@ img {
   break-inside: avoid;
   page-break-inside: avoid;
   overflow: hidden;
-  width: 100%;
+  width: 99%;
 }
 
 .gallery__item:hover {
    flex-shrink: 1;
-  line-height: 1;
+  line-height: 0;
   break-inside: avoid;
   page-break-inside: avoid;
   overflow: hidden;
