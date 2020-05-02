@@ -388,6 +388,22 @@ img {
   font-size: 18px;
   line-height: 21px;
   text-decoration: none;
+  color: #444;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-out;
+}
+
+.pets__tab:hover {
+  display: block;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  text-decoration: none;
   color: #ffffff;
   border: none;
   background-color: transparent;
