@@ -89,7 +89,7 @@ img {
   max-width: 1286px;
   margin: 0 auto;
   padding: 0 40px;
-  
+  text-align: center;
 }
 .col-1 {
     flex: auto;
