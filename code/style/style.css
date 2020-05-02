@@ -505,6 +505,14 @@ img {
   width: 100%;
 }
 
+.gallery__item:hover {
+   flex-shrink: 1;
+  line-height: 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+  overflow: hidden;
+  width: 200%; 
+}
 .gallery__item--top {
   margin-bottom: 30px;
   height: 214px;
